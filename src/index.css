@@ -1,2 +1,11 @@
 @import "tailwindcss";
 @plugin "daisyui";
+a.active {
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  font-weight: 500;
+  color: blueviolet;
+}
+a:hover {
+  background-color: white;
+}
