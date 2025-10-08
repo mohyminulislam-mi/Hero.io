@@ -1,0 +1,362 @@
+[
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg",
+    "title": "WhatsApp: Secure messaging and calling",
+    "companyName": "Meta Platforms",
+    "id": 1,
+    "description": "Fast, simple, secure messaging and calling for free.",
+    "size": 35,
+    "reviews": 120000000,
+    "ratingAvg": 4.3,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 3000000 },
+      { "name": "2 star", "count": 5000000 },
+      { "name": "3 star", "count": 10000000 },
+      { "name": "4 star", "count": 25000000 },
+      { "name": "5 star", "count": 77000000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Facebook_icon.svg",
+    "title": "Facebook",
+    "companyName": "Meta Platforms",
+    "id": 2,
+    "description": "Connect with friends, share updates, and explore communities.",
+    "size": 60,
+    "reviews": 98000000,
+    "ratingAvg": 4.1,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 4000000 },
+      { "name": "2 star", "count": 6000000 },
+      { "name": "3 star", "count": 12000000 },
+      { "name": "4 star", "count": 28000000 },
+      { "name": "5 star", "count": 48000000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/09/TikTok_logo.svg",
+    "title": "TikTok",
+    "companyName": "ByteDance",
+    "id": 3,
+    "description": "Create and discover short videos with music and effects.",
+    "size": 85,
+    "reviews": 75000000,
+    "ratingAvg": 4.5,
+    "downloads": 3000000000,
+    "ratings": [
+      { "name": "1 star", "count": 2000000 },
+      { "name": "2 star", "count": 4000000 },
+      { "name": "3 star", "count": 8000000 },
+      { "name": "4 star", "count": 20000000 },
+      { "name": "5 star", "count": 41000000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/58/Instagram_Icon.png",
+    "title": "Instagram",
+    "companyName": "Meta Platforms",
+    "id": 4,
+    "description": "Share photos, videos, and stories with your followers.",
+    "size": 50,
+    "reviews": 88000000,
+    "ratingAvg": 4.4,
+    "downloads": 4000000000,
+    "ratings": [
+      { "name": "1 star", "count": 2500000 },
+      { "name": "2 star", "count": 4500000 },
+      { "name": "3 star", "count": 9000000 },
+      { "name": "4 star", "count": 22000000 },
+      { "name": "5 star", "count": 50000000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/YouTube_Logo_2017.svg",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 5,
+    "description": "Watch and share videos from creators around the world.",
+    "size": 100,
+    "reviews": 110000000,
+    "ratingAvg": 4.6,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 3000000 },
+      { "name": "2 star", "count": 5000000 },
+      { "name": "3 star", "count": 10000000 },
+      { "name": "4 star", "count": 25000000 },
+      { "name": "5 star", "count": 67000000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Khan_Academy_logo.svg",
+    "title": "Khan Academy",
+    "companyName": "Khan Academy",
+    "id": 6,
+    "description": "Free online courses, lessons, and practice in math, science, and more.",
+    "size": 40,
+    "reviews": 1200000,
+    "ratingAvg": 4.7,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 30000 },
+      { "name": "3 star", "count": 80000 },
+      { "name": "4 star", "count": 250000 },
+      { "name": "5 star", "count": 910000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Duolingo_logo.svg",
+    "title": "Duolingo",
+    "companyName": "Duolingo Inc.",
+    "id": 7,
+    "description": "Learn languages with fun, bite-sized lessons.",
+    "size": 35,
+    "reviews": 9500000,
+    "ratingAvg": 4.6,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 800000 },
+      { "name": "4 star", "count": 2500000 },
+      { "name": "5 star", "count": 5700000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Google_Classroom_icon.svg",
+    "title": "Google Classroom",
+    "companyName": "Google LLC",
+    "id": 8,
+    "description": "Simplify teaching and learning with assignments, feedback, and communication.",
+    "size": 25,
+    "reviews": 3000000,
+    "ratingAvg": 4.4,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 100000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "3 star", "count": 400000 },
+      { "name": "4 star", "count": 800000 },
+      { "name": "5 star", "count": 1500000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Photomath_logo.svg",
+    "title": "Photomath",
+    "companyName": "Photomath Inc.",
+    "id": 9,
+    "description": "Scan and solve math problems instantly with step-by-step explanations.",
+    "size": 30,
+    "reviews": 5000000,
+    "ratingAvg": 4.7,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 100000 },
+      { "name": "2 star", "count": 150000 },
+      { "name": "3 star", "count": 400000 },
+      { "name": "4 star", "count": 1200000 },
+      { "name": "5 star", "count": 3150000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6c/PayPal_logo.svg",
+    "title": "PayPal",
+    "companyName": "PayPal Inc.",
+    "id": 10,
+    "description": "Send, receive, and manage money securely.",
+    "size": 45,
+    "reviews": 7000000,
+    "ratingAvg": 4.3,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 400000 },
+      { "name": "3 star", "count": 800000 },
+      { "name": "4 star", "count": 2000000 },
+      { "name": "5 star", "count": 3500000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Coursera_logo.svg",
+    "title": "Coursera",
+    "companyName": "Coursera Inc.",
+    "id": 11,
+    "description": "Online courses from top universities and companies.",
+    "size": 50,
+    "reviews": 2200000,
+    "ratingAvg": 4.5,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 50000 },
+      { "name": "2 star", "count": 80000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 600000 },
+      { "name": "5 star", "count": 1270000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Google_Pay_Logo.svg",
+    "title": "Google Pay",
+    "companyName": "Google LLC",
+    "id": 12,
+    "description": "Pay, shop, and manage your money with ease.",
+    "size": 40,
+    "reviews": 8000000,
+    "ratingAvg": 4.4,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 250000 },
+      { "name": "2 star", "count": 350000 },
+      { "name": "3 star", "count": 700000 },
+      { "name": "4 star", "count": 2200000 },
+      { "name": "5 star", "count": 4480000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/PhonePe_Logo.svg",
+    "title": "PhonePe",
+    "companyName": "PhonePe Pvt Ltd",
+    "id": 13,
+    "description": "UPI payments, recharges, and financial services in one app.",
+    "size": 35,
+    "reviews": 6000000,
+    "ratingAvg": 4.5,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 600000 },
+      { "name": "4 star", "count": 1800000 },
+      { "name": "5 star", "count": 3100000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Robinhood_logo.svg",
+    "title": "Robinhood",
+    "companyName": "Robinhood Markets Inc.",
+    "id": 14,
+    "description": "Invest in stocks, ETFs, and crypto commission-free.",
+    "size": 55,
+    "reviews": 2500000,
+    "ratingAvg": 4.2,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 100000 },
+      { "name": "2 star", "count": 150000 },
+      { "name": "3 star", "count": 300000 },
+      { "name": "4 star", "count": 700000 },
+      { "name": "5 star", "count": 1250000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/YNAB_logo.svg",
+    "title": "YNAB (You Need A Budget)",
+    "companyName": "YNAB LLC",
+    "id": 15,
+    "description": "Gain control of your money and build better budgeting habits.",
+    "size": 28,
+    "reviews": 500000,
+    "ratingAvg": 4.6,
+    "downloads": 1000000,
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 30000 },
+      { "name": "3 star", "count": 60000 },
+      { "name": "4 star", "count": 150000 },
+      { "name": "5 star", "count": 240000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7e/MyFitnessPal_logo.svg",
+    "title": "MyFitnessPal",
+    "companyName": "Under Armour",
+    "id": 16,
+    "description": "Track calories, meals, and exercise to reach your health goals.",
+    "size": 60,
+    "reviews": 9000000,
+    "ratingAvg": 4.5,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 400000 },
+      { "name": "3 star", "count": 800000 },
+      { "name": "4 star", "count": 2200000 },
+      { "name": "5 star", "count": 5300000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Fitbit_logo.svg",
+    "title": "Fitbit",
+    "companyName": "Google LLC",
+    "id": 17,
+    "description": "Monitor your activity, sleep, and heart rate with Fitbit devices.",
+    "size": 70,
+    "reviews": 6000000,
+    "ratingAvg": 4.4,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 700000 },
+      { "name": "4 star", "count": 1800000 },
+      { "name": "5 star", "count": 3000000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Headspace_logo.svg",
+    "title": "Headspace",
+    "companyName": "Headspace Inc.",
+    "id": 18,
+    "description": "Meditation and mindfulness for stress, sleep, and focus.",
+    "size": 45,
+    "reviews": 3000000,
+    "ratingAvg": 4.7,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 100000 },
+      { "name": "2 star", "count": 150000 },
+      { "name": "3 star", "count": 300000 },
+      { "name": "4 star", "count": 700000 },
+      { "name": "5 star", "count": 1750000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Calm_logo.svg",
+    "title": "Calm",
+    "companyName": "Calm.com Inc.",
+    "id": 19,
+    "description": "Sleep, meditation, and relaxation with soothing sounds and stories.",
+    "size": 50,
+    "reviews": 4000000,
+    "ratingAvg": 4.6,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 120000 },
+      { "name": "2 star", "count": 180000 },
+      { "name": "3 star", "count": 350000 },
+      { "name": "4 star", "count": 900000 },
+      { "name": "5 star", "count": 2450000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/WebMD_logo.svg",
+    "title": "WebMD",
+    "companyName": "WebMD LLC",
+    "id": 20,
+    "description": "Check symptoms, find doctors, and learn about health conditions.",
+    "size": 55,
+    "reviews": 2000000,
+    "ratingAvg": 4.3,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 80000 },
+      { "name": "2 star", "count": 100000 },
+      { "name": "3 star", "count": 250000 },
+      { "name": "4 star", "count": 600000 },
+      { "name": "5 star", "count": 970000 }
+    ]
+  }
+]
