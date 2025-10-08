@@ -1,0 +1,32 @@
+import React from 'react';
+import DownloadIcon from './../assets/icon-downloads.png'
+import RatingsIcon from './../assets/icon-ratings.png'
+
+const App = ({app}) => {
+    return (
+        <div>
+            <div key={app.id} className="card bg-base-100 shadow-sm hover:scale-101 transition ease-in-out">
+                    <figure className="H-48 overflow-hidden">
+                        <img className="w-full object-cover" src={app.image} />
+                    </figure>
+                    <div className="card-body">
+                        <span className="pr-[5px] font-medium">
+                            <span className="font-bold">{app.title}</span> 
+                        </span>
+                        <div className='flex justify-between items-center pt-3'>
+                            <div className='flex justify-between items-center bg-green-100 px-3 py-1 rounded'>
+                                <img className='w-[15px]' src={DownloadIcon} alt="Downloads Icon" />
+                                <span className='pl-1 font-medium font-text-sm'>{app.downloads / 1000000}M</span> 
+                            </div>
+                            <div className='flex justify-between items-center bg-orange-100 px-3 py-1 rounded'>
+                                <img className='w-[15px]' src={RatingsIcon} alt="Ratings Icon" />
+                                <span className='pl-1 font-medium font-text-sm'>{app.ratingAvg}</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    );
+};
+
+export default App;
