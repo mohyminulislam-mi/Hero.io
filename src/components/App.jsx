@@ -1,11 +1,12 @@
 import React from 'react';
 import DownloadIcon from './../assets/icon-downloads.png'
 import RatingsIcon from './../assets/icon-ratings.png'
+import { Link } from 'react-router';
 
 const App = ({app}) => {
     return (
         <div>
-            <div key={app.id} className="card bg-base-100 shadow-sm hover:scale-101 transition ease-in-out">
+            <Link to={`/AppsDetails/${app.id}`} key={app.id} className="card bg-base-100 shadow-sm hover:scale-101 transition ease-in-out">
                     <figure className="H-48 overflow-hidden">
                         <img className="w-full object-cover" src={app.image} />
                     </figure>
@@ -24,7 +25,7 @@ const App = ({app}) => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </Link>
         </div>
     );
 };

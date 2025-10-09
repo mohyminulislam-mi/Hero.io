@@ -24,7 +24,7 @@ const Home = () => {
             }
             </div>
             <div className='text-center pt-15'>
-                <Link src={'./apps'} className='btn bgbtn h-10 bg-gradient-to-r from-indigo-500 to-purple-500 text-white font-bold'>Show All</Link>
+                <Link to='./apps' className='btn bgbtn h-10 bg-gradient-to-r from-indigo-500 to-purple-500 text-white font-bold'>Show All</Link>
             </div>
         </div>
     );

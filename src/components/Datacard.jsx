@@ -1,15 +1,16 @@
 import React from 'react';
 import DownloadIcon from './../assets/icon-downloads.png'
 import RatingsIcon from './../assets/icon-ratings.png'
+import { Link } from 'react-router';
 
 const Datacard = ({ appdata }) => {
 
     return (
         <div>
-            <div className="card bg-base-100 shadow-sm hover:scale-101 transition ease-in-out">
-                <figure className="h-48 overflow-hidden">
-                    <img className="w-full object-cover" src={"https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"} alt="image" />
-                </figure>
+            <Link to={`/AppsDetails/${appdata.id}`} className="card bg-base-100 shadow-sm hover:scale-101 transition ease-in-out">
+                <figure className="H-48 overflow-hidden">
+                        <img className="w-full object-cover" src={appdata.image} />
+                    </figure>
                 <div className="card-body">
                         <span className="pr-[5px] font-medium">{appdata.title}:</span>
                     <div className='flex justify-between items-center pt-3'>
@@ -23,7 +24,7 @@ const Datacard = ({ appdata }) => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </Link>
         </div>
     );
 };
