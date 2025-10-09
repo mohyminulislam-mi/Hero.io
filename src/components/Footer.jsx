@@ -35,8 +35,9 @@ const Footer = () => {
                     <h6 className="footer-title">Company</h6>
                     <a className="link link-hover">About us</a>
                     <a className="link link-hover">Contact us</a>
-                    <a className="link link-hover">Priceing</a>
-                    <a className="link link-hover">Location</a>
+                    <a className="link link-hover">Blogs</a>
+                    <a className="link link-hover">Events</a>
+                    <a className="link link-hover">Privacy Policy</a>
                 </nav>
                 <nav>
                     <h6 className="footer-title">Social</h6>
