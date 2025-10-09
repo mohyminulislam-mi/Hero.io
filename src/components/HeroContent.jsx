@@ -9,7 +9,7 @@ const HeroContent = () => {
              {/* ----- hero contents start here----  */}
             <div className='text-center mt-20'>
                 <h1 className='text-5xl font-bold lg:px-[450px] lg:py-[15px]'>We Build <span className='text-6xl text-purple-500'>Productive</span> Apps</h1>
-                <p className='lg:px-[310px] py-[15px] text-[#627382]'>At HERO.IO, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting.Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
+                <p className='lg:px-[310px] px-[250px] py-[15px] text-[#627382]'>At HERO.IO, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting.Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
                 <div className='flex items-center justify-center'>
                     <div className='border-gray-300 border flex justify-center items-center mr-7 py-[5px] px-4'>
                         <img src={Playstore} />
