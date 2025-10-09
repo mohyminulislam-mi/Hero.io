@@ -15,7 +15,7 @@ const useData = () => {
             .finally(() => setLoading(false))
     }, [])
     
-    return [apps, loading, error]; 
+    return { apps, loading, error };
 };
 
 export default useData;

@@ -11,7 +11,7 @@ const Footer = () => {
     return (
         <footer className="bg-black text-white">
             <div className="footer sm:footer-horizontal p-10 w-11/12 mx-auto pl-0 pr-0">
-                <aside>
+                <aside className='footer-a'>
                     <NavLink src="/" className="flex items-center no-underline">
                         <img
                             src={Logo}
@@ -34,9 +34,9 @@ const Footer = () => {
                 <nav>
                     <h6 className="footer-title">Company</h6>
                     <a className="link link-hover">About us</a>
-                    <a className="link link-hover">Contact</a>
-                    <a className="link link-hover">Jobs</a>
-                    <a className="link link-hover">Press kit</a>
+                    <a className="link link-hover">Contact us</a>
+                    <a className="link link-hover">Priceing</a>
+                    <a className="link link-hover">Location</a>
                 </nav>
                 <nav>
                     <h6 className="footer-title">Social</h6>

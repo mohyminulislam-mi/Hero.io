@@ -15,11 +15,11 @@ const Datacard = ({ appdata }) => {
                     <div className='flex justify-between items-center pt-3'>
                         <div className='flex justify-between items-center bg-green-100 px-3 py-1 rounded'>
                             <img className='w-[15px]' src={DownloadIcon} />
-                            <span className='pl-1 font-medium font text-sm'>9M</span>
+                            <span className='pl-1 font-medium font text-sm'>{appdata.downloads / 1000000}</span>
                         </div>
                         <div className='flex justify-between items-center bg-orange-100 px-3 py-1 rounded'>
                             <img className='w-[15px]' src={RatingsIcon} />
-                            <span className='pl-1 font-medium font text-sm '>5</span>
+                            <span className='pl-1 font-medium font text-sm '>{appdata.ratingAvg}</span>
                         </div>
                     </div>
                 </div>

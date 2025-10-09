@@ -1,12 +1,13 @@
 import React from 'react';
-import { Link, useLoaderData } from 'react-router';
+import { Link} from 'react-router';
 import Datacard from '../components/Datacard';
 import HeroContent from '../components/HeroContent';
+import useData from '../Hooks/useData';
 
 
 const Home = () => {
-    const appsdata = useLoaderData();
-    const HomeApps = appsdata.slice(0, 8)
+        const {apps} = useData();
+    const HomeApps = apps.slice(0, 8);
     
     return (
         <div className='w-11/12 mx-auto'>

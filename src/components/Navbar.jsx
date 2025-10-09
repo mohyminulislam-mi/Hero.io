@@ -42,7 +42,7 @@ const Navbar = () => {
                     </li>
                     </ul>
                 </div>
-                <NavLink src='/' className="flex items-center no-underline"><img src={Logo} alt="App Logo" style={{ width: "40px", height: "40px" }} /> <span className="text-purple-500 font-bold">HERO.IO</span> </NavLink>
+                <NavLink src='/' className="flex items-center navbar-a"><img src={Logo} alt="App Logo" style={{ width: "40px", height: "40px" }} /> <span className="text-purple-500 font-bold no-underline">HERO.IO</span> </NavLink>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1 ">
