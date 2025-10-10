@@ -42,13 +42,15 @@ const AppsDetails = () => {
 
     return (
         <div className='w-11/12 mx-auto'>
-            <div className='flex items-center'>
-                <div className="w-[25%] overflow-hidden pr-10 "><img className="w-full object-cover" src={app.image} /></div>
-                <div>
-                    <h1>{app.title}</h1>
-                    <p>Development by <span className='text-purple-500'>{app.companyName}</span></p>
+            <div className='lg:flex items-center justify-between border-b-2 border-[#dddddd]'>
+                <div className="lg:w-[20%] overflow-hidden md:items-center"><img className="w-[50%] lg:w-full object-cover" src={app.image} /></div>
+                <div className='w-[78%]'>
+                    <div className='w-[100%] border-b-2 border-[#dddddd] pb-4'>
+                        <h1>{app.title}</h1>
+                        <p>Development by <span className='text-purple-500 font-medium'>{app.companyName}</span></p>
+                    </div>
 
-                    <div className='mt-8 flex justify-between gap-15'>
+                    <div className=' mt-4 flex  gap-12'>
                         <div >
                             <img src={download} alt="Download Icon" className='w-[30px]' />
                             <h4 className='pt-1 pb-1'>Downloads</h4>
