@@ -1,33 +1,43 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { useParams } from "react-router";
 import useData from '../Hooks/useData';
 import download from '../assets/icon-downloads.png'
 import ratings from '../assets/icon-ratings.png'
 import review from '../assets/icon-review.png'
-import Installation from '../Pages/Installation';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 const AppsDetails = () => {
+    const [isInstalled, setIsInstalled] = useState(false);
+
     const { id } = useParams();
     const { apps } = useData();
-    const app = apps.find(p => String(p.id) === id);
+    const app = apps.find(p => String(p.id) === id) || [];
+
+    useEffect(() => {
+        const existingList = JSON.parse(localStorage.getItem('installation')) || [];
+        const alreadyInstalled = existingList.some(p => p.id === app.id);
+        setIsInstalled(alreadyInstalled);
+    }, [app.id]);
+
     if (!app) {
         return <div>Loading...</div>;
     }
 
     const handleInstallNow = () => {
-        const existingList = JSON.parse(localStorage.getItem('installation'));
+        const existingList = JSON.parse(localStorage.getItem('installation')) || [];
 
-        let updatedList = [];
-        if (existingList) {
-            const isMultipleValue = existingList.some(p => p.id === app.id)
-            if(isMultipleValue) return alert('Already Addad')
-            updatedList = [...existingList, app]
-        }
-        else {
-            updatedList.push(app)
-        }
+        const alreadyInstalled = existingList.some(p => p.id === app.id);
+        if (alreadyInstalled) return toast.success('Already Added');
+
+        const updatedList = [...existingList, app];
         localStorage.setItem('installation', JSON.stringify(updatedList));
-    }
+
+        setIsInstalled(true);
+        toast.success("Installed");
+    };
+
 
 
     return (
@@ -40,23 +50,34 @@ const AppsDetails = () => {
 
                     <div className='mt-8 flex justify-between gap-15'>
                         <div >
-                            <img src={download} alt="Download Icon" className='w-[30px]'/>
+                            <img src={download} alt="Download Icon" className='w-[30px]' />
                             <h4 className='pt-1 pb-1'>Downloads</h4>
                             <h1 className='font-bold text-xl'>{app.downloads / 10000000} M</h1>
                         </div>
                         <div >
-                            <img src={ratings} alt="Download Icon" className='w-[30px]'/>
+                            <img src={ratings} alt="Download Icon" className='w-[30px]' />
                             <h4 className='pt-1 pb-1'>Average Ratings</h4>
                             <h1 className='font-bold text-xl'>{app.ratingAvg}</h1>
                         </div>
                         <div >
-                            <img src={review} alt="Download Icon" className='w-[30px]'/>
+                            <img src={review} alt="Download Icon" className='w-[30px]' />
                             <h4 className='pt-1 pb-1'>Total Reviews</h4>
                             <h1 className='font-bold text-xl'>{app.reviews / 100000} K</h1>
                         </div>
                     </div>
                     <div className='mt-5'>
-                        <button onClick={handleInstallNow} className="btn bg-green-500 text-white">Install Now ({app.size} MB)</button>
+                        <button onClick={handleInstallNow} className="btn bg-green-500 text-white">{isInstalled ? 'Installed' : `Install Now (${app.size} MB)`}</button>
+
+                        <ToastContainer
+                            position="top-right"
+                            autoClose={1000}
+                            hideProgressBar={false}
+                            newestOnTop={false}
+                            closeOnClick
+                            pauseOnHover={false}
+                            draggable
+                            theme="light"
+                        />
                     </div>
                 </div>
             </div>
