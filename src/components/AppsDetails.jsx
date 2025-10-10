@@ -6,11 +6,11 @@ import ratings from '../assets/icon-ratings.png'
 import review from '../assets/icon-review.png'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Chart from './Chart';
 
 
 const AppsDetails = () => {
     const [isInstalled, setIsInstalled] = useState(false);
-
     const { id } = useParams();
     const { apps } = useData();
     const app = apps.find(p => String(p.id) === id) || [];
@@ -37,7 +37,6 @@ const AppsDetails = () => {
         setIsInstalled(true);
         toast.success("Installed");
     };
-
 
 
     return (
@@ -83,6 +82,7 @@ const AppsDetails = () => {
                     </div>
                 </div>
             </div>
+            <Chart></Chart>
         </div>
     );
 };

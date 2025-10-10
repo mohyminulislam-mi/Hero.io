@@ -7,6 +7,9 @@ import AppNotFound from '../components/AppNotFound';
 const Apps = () => {
     const { apps} = useData();
     const [search, setSearch] = useState('');
+    if (!apps) {
+        return <div>Loading...</div>;
+    }
     const term = search.trim().toLocaleLowerCase();
     const searcheApps = term
         ? apps.filter(app => app.title?.toLocaleLowerCase().includes(term))
@@ -26,7 +29,9 @@ const Apps = () => {
             </div>
             <div className='w-11/12 mx-auto grid grid-cols-2  lg:grid-cols-4 gap-4'>
                 {
-                  searcheApps.length ? searcheApps.map(app => <App key={app.id} app={app}></App>) : <AppNotFound></AppNotFound>}
+                    searcheApps.length ? searcheApps.map(app => <App key={app.id} app={app}></App>) : (
+                       <div className='col-span-4 p-10'><AppNotFound></AppNotFound></div> 
+                    )}
             </div>
         </div>
 

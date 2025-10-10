@@ -7,6 +7,9 @@ import useData from "../Hooks/useData";
 const Home = () => {
     const { apps } = useData();
     const HomeApps = apps.slice(2, 10);
+    if (!apps) {
+        return <div>Loading...</div>;
+    }
 
     return (
         <div>
@@ -18,7 +21,7 @@ const Home = () => {
                     <p>Explore All Trending Apps on the Market developed by us</p>
                 </div>
                 <div className="grid grid-cols-2  lg:grid-cols-4 gap-4 ">
-                    {HomeApps.map((appdata) => (
+                    {HomeApps.map(appdata => (
                         <Datacard key={appdata.id} appdata={appdata}></Datacard>
                     ))}
                 </div>
