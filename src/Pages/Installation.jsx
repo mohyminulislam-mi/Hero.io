@@ -47,7 +47,7 @@ const Installation = () => {
                 </p>
             </div>
 
-            <div className="flex justify-between mt-6">
+            <div className="flex justify-between items-center mt-10">
                 <h3 className="font-bold ">{installation.length} Apps Found</h3>
 
                 <label>

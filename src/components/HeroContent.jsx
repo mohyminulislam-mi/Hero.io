@@ -28,22 +28,22 @@ const HeroContent = () => {
             </div>
              {/* ---- hero banner ---- */}
             <div className='bg-gradient-to-r from-indigo-500 to-purple-500'>
-                <div className='w-11/12 mx-auto text-center text-white py-14'>
-                    <h1 className='text-4xl lg:text-5xl font-bold'>Trusted by Millions, Built for You</h1>
-                    <div className='flex justify-center lg:gap-30 gap-16'>
+                <div className='text-center text-white py-14'>
+                    <h1 className='text-3xl lg:text-5xl font-bold'>Trusted by Millions, Built for You</h1>
+                    <div className='flex justify-center lg:gap-30 gap-2 md:px-5'>
                         <div className='mt-10'>
                             <h6 className='font-light'>Total Downloads</h6>
-                            <h1 className='text-5xl font-bold py-1'>29.6M</h1>
+                            <h1 className='lg:text-5xl text-3xl font-bold py-1'>29.6M</h1>
                             <h6 className='font-light'>21% more than last month</h6>
                         </div>
                         <div className='mt-10'>
                             <h6 className='font-light'>Total Reviews</h6>
-                            <h1 className='text-5xl font-bold py-1'>906K</h1>
+                            <h1 className='lg:text-5xl text-3xl font-bold py-1'>906K</h1>
                             <h6 className='font-light'>46% more than last month</h6>
                         </div>
                         <div className='mt-10'>
                             <h6 className='font-light'>Active Apps</h6>
-                            <h1 className='text-5xl font-bold py-1'>132+</h1>
+                            <h1 className='lg:text-5xl text-3xl font-bold py-1'>132+</h1>
                             <h6 className='font-light'>31 more will Launch</h6>
                         </div>
                     </div>

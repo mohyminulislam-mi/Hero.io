@@ -11,7 +11,7 @@ const AppNotFound = () => {
                     <p className='text-[#627382] my-2'>The App you are requesting is not found on our system.  please try another apps</p>
                     <Link to="/"
                         className="btn bgbtn h-10 bg-gradient-to-r from-indigo-500 to-purple-500 text-white mt-5"
-                    > Back to Apps</Link>
+                    > Back to Home</Link>
                 </div>
     );
 };

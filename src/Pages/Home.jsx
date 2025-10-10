@@ -3,12 +3,13 @@ import { Link } from "react-router";
 import Datacard from "../components/Datacard";
 import HeroContent from "../components/HeroContent";
 import useData from "../Hooks/useData";
+import Loading from "../components/Loading";
 
 const Home = () => {
-    const { apps } = useData();
+    const { apps, loading } = useData();
     const HomeApps = apps.slice(2, 10);
-    if (!apps) {
-        return <div>Loading...</div>;
+    if (loading) {
+        return <Loading />;
     }
 
     return (

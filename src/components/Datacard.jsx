@@ -14,13 +14,13 @@ const Datacard = ({ appdata }) => {
                 <div className="card-body">
                         <span className="pr-[5px] font-medium">{appdata.title}:</span>
                     <div className='flex justify-between items-center pt-3'>
-                        <div className='flex justify-between items-center bg-green-100 px-3 py-1 rounded'>
-                            <img className='w-[15px]' src={DownloadIcon} />
-                            <span className='pl-1 font-medium font text-sm'>{appdata.downloads / 10000000}M</span>
+                        <div className='flex justify-between items-center bg-green-100 lg:px-3 px-1.5 py-1 rounded'>
+                            <img className='lg:w-[15px] w-[12px]' src={DownloadIcon} />
+                            <span className='pl-1 font-medium text-sm'>{appdata.downloads / 10000000}M</span>
                         </div>
-                        <div className='flex justify-between items-center bg-orange-100 px-3 py-1 rounded'>
-                            <img className='w-[15px]' src={RatingsIcon} />
-                            <span className='pl-1 font-medium font text-sm '>{appdata.ratingAvg}</span>
+                        <div className='flex justify-between items-center bg-orange-100 lg:px-3 px-1.5 py-1 rounded'>
+                            <img className='lg:w-[15px] w-[12px]' src={RatingsIcon} />
+                            <span className='pl-1 font-medium text-sm '>{appdata.ratingAvg}</span>
                         </div>
                     </div>
                 </div>
