@@ -47,12 +47,12 @@ const Installation = () => {
                 </p>
             </div>
 
-            <div className="flex justify-between items-center mt-10">
+            <div className="flex justify-between items-center mt-6">
                 <h3 className="font-bold ">{installation.length} Apps Found</h3>
 
                 <label>
                     <select className="select select-bordered" value={sortApp} onChange={e => setSortApp(e.target.value)}>
-                        <option value="none">Sort by downloads</option>
+                        <option value="none">Sort by Size</option>
                         <option value="low-asc">Low-High</option>
                         <option value="high-desc">High-Low</option>
                     </select>
