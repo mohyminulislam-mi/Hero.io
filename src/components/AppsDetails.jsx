@@ -44,7 +44,7 @@ const AppsDetails = () => {
             <div className='lg:flex items-center justify-between border-b-2 border-[#dddddd] py-5'>
                 <div className="lg:w-[24%] overflow-hidden md:items-center"><img className="w-[50%] mx-auto lg:w-full object-cover bg-base-100" src={app.image} /></div>
                 <div className='lg:w-[75%]'>
-                    <div className='w-[100%] border-b-2 border-[#dddddd] pb-4'>
+                    <div className='w-[100%] border-b-2 border-[#dddddd] py-4 '>
                         <h1 className='lg:font-bold font-semibold lg:text-2xl text-xl mb-2'>{app.title}</h1>
                         <p>Development by <span className='text-purple-500 font-medium'>{app.companyName}</span></p>
                     </div>
