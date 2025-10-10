@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import useData from '../Hooks/useData';
 import App from '../components/App';
+import AppNotFound from '../components/AppNotFound';
 
 
 const Apps = () => {
@@ -17,14 +18,15 @@ const Apps = () => {
                 <p className='text-[#627382]'>Explore All Apps on the Market developed by us. We code for Millions</p>
             </div>
             <div className='w-11/12 mx-auto flex justify-between items-center pb-5'>
-                <h1>All Apps {' '} <span>({searcheApps.length}) Apps Founds</span></h1>
+                <h1 className='font-semibold'>{' '} <span>({searcheApps.length}) Apps Founds</span></h1>
                 <label className='input'>
                     <input value={search} onChange={e => setSearch(e.target.value)} type="search" placeholder='Search Apps' />
                 </label>
 
             </div>
             <div className='w-11/12 mx-auto grid grid-cols-2  lg:grid-cols-4 gap-4'>
-                {searcheApps.map(app => <App key={app.id} app={app}></App>)}
+                {
+                  searcheApps.length ? searcheApps.map(app => <App key={app.id} app={app}></App>) : <AppNotFound></AppNotFound>}
             </div>
         </div>
 
